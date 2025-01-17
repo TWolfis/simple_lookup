@@ -1,0 +1,25 @@
+.TH simple_lookup 1 "January 14, 2025" "simple_lookup 1.0"
+.SH NAME
+simple_lookup \- perform a DNS lookup on a hostname
+.SH SYNOPSIS
+.B simple_lookup
+.I hostname
+.SH DESCRIPTION
+.PP
+The
+.B simple_lookup
+command performs a DNS lookup on the given
+.I hostname
+and displays the resulting IP addresses (A and AAAA records).
+.SH OPTIONS
+.PP
+This program does not accept any options.
+.SH EXAMPLES
+.PP
+To look up the IP addresses of \fIwww.example.com\fP:
+.PP
+.B simple_lookup www.example.com
+.SH SEE ALSO
+.BR resolv (3)
+.SH AUTHOR
+thomas.wolfis@gmail.com
